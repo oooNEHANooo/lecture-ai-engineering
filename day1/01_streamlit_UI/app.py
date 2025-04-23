@@ -46,9 +46,9 @@ if st.button("クリックしてください"):
 #     st.info("これは隠れたコンテンツです！")
 
 # スライダー
-# st.subheader("スライダー")
-# age = st.slider("年齢", 0, 100, 25)
-# st.write(f"あなたの年齢: {age}")
+st.subheader("スライダー")
+age = st.slider("年齢", 0, 100, 25)
+st.write(f"あなたの年齢: {age}")
 
 # セレクトボックス
 st.subheader("セレクトボックス")
